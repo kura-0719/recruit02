@@ -1,0 +1,123 @@
+/* .sub-page-top-wrap {
+    display: flex;
+    margin-top: 90px;
+    position: relative;
+}
+.sub-page-top-title {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform-origin: 25% 30%;
+    transform: rotate(90deg);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 48px;
+}
+.sub-page-top-img {
+    width: 86%;
+    margin: 0 auto;
+}
+.sub-page-title-box {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+.sub-page-title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 1.5;
+}
+.sub-page-text {
+    line-height: 2;
+    font-size: 16px;
+} */
+.sub-mv-wrap {
+    height: auto;
+    padding-bottom: 6%;
+}
+.sub-mv-box {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.sub-mv-title {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform-origin: 25% 30%;
+    transform: rotate(90deg);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 48px;
+}
+.sub-mv-img-door {
+    width: 120%;
+    margin-top: 40px;
+}
+.sub-mv-img-hum {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 75%;
+}
+.sub-mv-img-box {
+    display: flex;
+    position: relative;
+    margin-left: 8%;
+    width: 24%;
+}
+.sub-mv-text-box {
+    width: 40%;
+    color: #fff;
+    margin-top: 12%;
+}
+.sub-mv-text-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+.sub-mv-text-text {
+    line-height: 2.5;
+    font-size: 20px;
+}
+@media (max-width:1200px) {
+    .sub-mv-text-text {
+        line-height: 2;
+    }
+}
+@media (max-width:1000px) {
+    .sub-mv-title {
+        font-size: 40px;
+    }
+    .sub-mv-text-title {
+        font-size: 28px;
+    }
+    .sub-mv-text-text {
+        font-size: 16px;
+    }
+    .req-mv-title {
+        left: -4%;
+    }
+}
+@media (max-width:650px) {
+    .sub-mv-box {
+        display: block;
+        width: 65%;
+        margin: 0 auto;
+    }
+    .sub-mv-title {
+        left: -24%;
+    }
+    .sub-mv-img-box {
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 60px;
+    }
+    .sub-mv-text-box {
+        width: auto;
+    }
+    .req-mv-title {
+        top: 20%;
+        left: -36%;
+    }
+}

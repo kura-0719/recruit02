@@ -1,0 +1,144 @@
+.business-wrap {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+.business-box {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    text-align: center;
+}
+.business-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    text-align: center;
+}
+.business-item {
+    display: flex;
+    justify-content: center;
+}
+.business-item-img {
+    width: 50%;
+}
+.business-item-text {
+    width: 50%;
+    margin-left: 40px;
+    text-align: left;
+    height: auto;
+}
+.business-text-title {
+    font-size: 21px;
+    height: auto;
+}
+.business-text-text {
+    margin-top: 40px;
+    height: auto;
+}
+.title01 {
+    z-index: 0;
+    position: relative;
+}
+.title01::before {
+    position: absolute;
+    content: '01';
+    opacity: 0.15;
+    z-index: -1;
+    font-size: 100px;
+    left: -20%;
+    top: -55%;
+}
+.item02 {
+    flex-direction: row-reverse;
+}
+.item-text02 {
+    margin-left: 0px;
+    margin-right: 40px;
+}
+.title02 {
+    z-index: 0;
+    position: relative;
+}
+.title02::before {
+    position: absolute;
+    content: '02';
+    opacity: 0.15;
+    z-index: -1;
+    font-size: 100px;
+    left: -20%;
+    top: -55%;
+}
+.title03 {
+    z-index: 0;
+    position: relative;
+}
+.title03::before {
+    position: absolute;
+    content: '03';
+    opacity: 0.15;
+    z-index: -1;
+    font-size: 100px;
+    left: -20%;
+    top: -55%;
+}
+@media (max-width:800px){
+    .business-title {
+        font-size: 32px;
+    }
+    .title01::before {
+        font-size: 80px;
+        left: -20%;
+    }
+    .title02::before {
+        font-size: 80px;
+        left: -20%;
+    }
+    .title03::before {
+        font-size: 80px;
+        left: -20%;
+    }
+    .business-item {
+        display: block;
+    }
+    .business-item-img {
+        margin: 0 auto;
+        width: auto;
+    }
+    .business-item-text {
+        margin: 0 auto;
+        width: auto;
+        margin-top: 20px;
+    }
+    .business-text-title {
+        text-align: center;
+    }
+}
+@media (max-width:650px) {
+    .business-wrap {
+        margin-bottom: 120px;
+    }
+    .business-box {
+        margin-bottom: 100px;
+    }
+    .business-title {
+        font-size: 24px;
+    }
+    .business-text-text {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+    .title01::before {
+        top: -80%;
+        left: -24%;
+    }
+    .title02::before {
+        top: -80%;
+        left: -24%;
+    }
+    .title03::before {
+        top: -80%;
+        left: -24%;
+    }
+}
